@@ -1,2 +1,2 @@
-# Finance_Guidence
-Manage Home expences and Finance 
+# Finance_Guidance
+Manage Home expense and Finance 
