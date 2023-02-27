@@ -12,16 +12,17 @@ def greetings():
     time = int(current_time())
     # print(time)
     if time >12:
-        greet = "Good Morning. W "
+        greet = "Good Morning. "
     elif time > 18:
-        greet = "Good Afternoon"
+        greet = "Good Afternoon. "
     else:
-        greet = "Good Evening"
+        greet = "Good Evening. "
     return greet
 
 def expense_entry():
     greeting = greetings()
-    continue_check_box = checkbox(greeting, options = [" I would like to continue"])
+    continue_check_box = checkbox(greeting + "Welcome to Finance Guidance" , options = ["check to proceed"])
+    print("Welcome to expense entry!")
 
 
 if __name__ == '__main__':
