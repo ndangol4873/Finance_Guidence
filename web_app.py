@@ -25,6 +25,6 @@ def expense_entry():
 
 
 if __name__ == '__main__':
-    print(greetings())
+    expense_entry()
 
 # start = input("")
