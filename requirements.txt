@@ -1,0 +1,6 @@
+certifi @ file:///C:/b/abs_85o_6fm0se/croot/certifi_1671487778835/work/certifi
+pywebio==1.7.1
+tornado==6.2
+ua-parser==0.16.1
+user-agents==2.2.0
+wincertstore==0.2
